@@ -9,7 +9,7 @@ namespace ChessKing
 {
 	class Pawn : Chess
 	{
-		string linkPoint = "Image\\circle.png";
+        string linkPoint = "Image\\circle.png";
 		public override void FindWay(ref ChessSquare[,] board, int row, int col)
 		{
 			//check mau -> xet quan co di tu duoi len
@@ -24,8 +24,9 @@ namespace ChessKing
 						{
 							if (this.Team != board[row - 1, col - 1].Chess.Team)
 							{
-								board[row - 1, col - 1].BackColor = Color.Red;
-								Common.CanEat.Add(board[row - 1, col - 1]);
+                                if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+								    board[row - 1, col - 1].BackColor = Color.Red;
+								Common.CanMove.Add(board[row - 1, col - 1]);
 							}
 							else
 							{ }
@@ -42,8 +43,9 @@ namespace ChessKing
 						{
 							if (this.Team != board[row - 1, col + 1].Chess.Team)
 							{
-								board[row - 1, col + 1].BackColor = Color.Red;
-								Common.CanEat.Add(board[row - 1, col + 1]);
+                                if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+								    board[row - 1, col + 1].BackColor = Color.Red;
+								Common.CanMove.Add(board[row - 1, col + 1]);
 							}
 							else
 							{ }
@@ -60,7 +62,8 @@ namespace ChessKing
 						{
 							if (board[i, col].Chess == null)
 							{
-								board[i, col].Image = Image.FromFile(linkPoint);
+                                if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+								    board[i, col].Image = Image.FromFile(linkPoint);
 								Common.CanMove.Add(board[i, col]);
 							}
 							else
@@ -71,7 +74,8 @@ namespace ChessKing
 					{
 						if (board[row - 1, col].Chess == null)
 						{
-							board[row - 1, col].Image = Image.FromFile(linkPoint);
+                            if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+							    board[row - 1, col].Image = Image.FromFile(linkPoint);
 							Common.CanMove.Add(board[row - 1, col]);
 						}
 						else
@@ -92,8 +96,9 @@ namespace ChessKing
 						{
 							if (this.Team != board[row + 1, col - 1].Chess.Team)
 							{
-								board[row + 1, col - 1].BackColor = Color.Red;
-								Common.CanEat.Add(board[row + 1, col - 1]);
+                                if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+								    board[row + 1, col - 1].BackColor = Color.Red;
+								Common.CanMove.Add(board[row + 1, col - 1]);
 							}
 							else
 							{ }
@@ -110,8 +115,9 @@ namespace ChessKing
 						{
 							if (this.Team != board[row + 1, col + 1].Chess.Team)
 							{
-								board[row + 1, col + 1].BackColor = Color.Red;
-								Common.CanEat.Add(board[row + 1, col + 1]);
+                                if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+								    board[row + 1, col + 1].BackColor = Color.Red;
+								Common.CanMove.Add(board[row + 1, col + 1]);
 							}
 							else
 							{ }
@@ -129,7 +135,8 @@ namespace ChessKing
 						{
 							if (board[i, col].Chess == null)
 							{
-								board[i, col].Image = Image.FromFile(linkPoint);
+                                if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
+								    board[i, col].Image = Image.FromFile(linkPoint);
 								Common.CanMove.Add(board[i, col]);
 							}
 							else
@@ -140,6 +147,7 @@ namespace ChessKing
 					{
 						if (board[row + 1, col].Chess == null)
 						{
+                            if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 							board[row + 1, col].Image = Image.FromFile(linkPoint);
 							Common.CanMove.Add(board[row + 1, col]);
 						}
