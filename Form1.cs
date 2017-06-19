@@ -224,26 +224,6 @@ namespace ChessKing
 			Board[7, 4].Image = Image.FromFile(linkWhiteKing);
 			Board[7, 4].Chess.Evaluation = 900;
 
-			//if (Common.CheckPromote == true)
-			//{
-			//	tempChess = new Queen();
-			//	if (Board[Common.RowSelected, Common.ColSelected].Chess.Team == 1) //white
-			//	{
-			//		tempChess.Team = (int)ColorTeam.White;
-			//		Board[Common.RowProQueen, Common.ColProQueen].Chess = tempChess;
-			//		Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkWhiteQueen);
-			//		Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = 90;
-			//	}
-			//	else //black
-			//	{
-			//		tempChess.Team = (int)ColorTeam.Black;
-			//		Board[Common.RowProQueen, Common.ColProQueen].Chess = tempChess;
-			//		Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkBlackQueen);
-			//		Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = -90;
-			//	}
-			//	Common.CheckPromote = false;
-			//}
-
 			Common.Board = Board;
 		}
 
@@ -256,6 +236,7 @@ namespace ChessKing
 
 		private void bnt1Player_Click(object sender, EventArgs e)
 		{
+            btn2Player.Enabled = false;
 			Display();
 			Common.IsMode = false;
 		}

@@ -375,28 +375,30 @@ namespace ChessKing
 
 					if (Common.CheckPromote == true)
 					{
-							
+                        Common.CheckPromote = false;
 							if (Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Team == 1) //white
 							{
 								//Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
 								//Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
-							this.Chess = new Queen();
-							this.Chess.Team = (int)ColorTeam.White;
+							
+                                this.Chess = new Queen();
+							    this.Chess.Team = (int)ColorTeam.White;
 								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess = this.Chess;
-							Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkWhiteQueen);
+							    Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkWhiteQueen);
 								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = 90;
+                                
 							}
 							else //black
 							{
-								Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
-								Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
-							this.Chess = new Queen();
-							this.Chess.Team = (int)ColorTeam.Black;
+								//Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
+								//Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
+							
+                                this.Chess = new Queen();
+							    this.Chess.Team = (int)ColorTeam.Black;
 								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess = this.Chess;
 								Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkBlackQueen);
 								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = -90;
 							}
-							Common.CheckPromote = false;
 					}
 
 					Common.IsTurn++; //change turn
