@@ -27,7 +27,7 @@ namespace ChessKing
                                 if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 								    board[row - 1, col - 1].BackColor = Color.Red;
 
-								if (row - 1 == 0 && board[row, col].Chess.Team == 1)
+								if (row - 1 == 0 && board[row, col].Chess.Team == 1 && Common.CheckKing == false)
 								{
 									Common.CheckPromote = true;
 								}
@@ -51,7 +51,7 @@ namespace ChessKing
                                 if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 								    board[row - 1, col + 1].BackColor = Color.Red;
 
-								if (row - 1 == 0 && board[row, col].Chess.Team == 1)
+								if (row - 1 == 0 && board[row, col].Chess.Team == 1 && Common.CheckKing == false)
 								{
 									Common.CheckPromote = true;
 								}
@@ -87,7 +87,7 @@ namespace ChessKing
 						{
                             if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 							    board[row - 1, col].Image = Image.FromFile(linkPoint);
-							if (row - 1 == 0 && board[row, col].Chess.Team == 1)
+							if (row - 1 == 0 && board[row, col].Chess.Team == 1 && Common.CheckKing == false)
 							{
 								Common.CheckPromote = true;
 							}
@@ -117,9 +117,10 @@ namespace ChessKing
                                 if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 								    board[row + 1, col - 1].BackColor = Color.Red;
 
-								if (row + 1 == 0 && board[row, col].Chess.Team == 2)
+								if (row + 1 == 7 && board[row, col].Chess.Team == 2 && Common.CheckKing == false)
 								{
 									Common.CheckPromote = true;
+
 								}
 								Common.CanMove.Add(board[row + 1, col - 1]);
 							}
@@ -141,7 +142,7 @@ namespace ChessKing
                                 if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 								    board[row + 1, col + 1].BackColor = Color.Red;
 
-								if (row + 1 == 0 && board[row, col].Chess.Team == 2)
+								if (row + 1 == 0 && board[row, col].Chess.Team == 2 && Common.CheckKing == false)
 								{
 									Common.CheckPromote = true;
 								}
@@ -177,7 +178,7 @@ namespace ChessKing
 						{
                             if (Common.IsTurn % 2 == 0 || Common.IsMode == true)
 							board[row + 1, col].Image = Image.FromFile(linkPoint);
-							if (row + 1 == 7 && board[row, col].Chess.Team == 2)
+							if (row + 1 == 7 && board[row, col].Chess.Team == 2 && Common.CheckKing == false)
 							{
 								Common.CheckPromote = true;
 							}

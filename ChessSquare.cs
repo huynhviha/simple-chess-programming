@@ -375,35 +375,40 @@ namespace ChessKing
 
 					if (Common.CheckPromote == true)
 					{
-							
-							if (Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Team == 1) //white
-							{
-								//Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
-								//Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
-							this.Chess = new Queen();
-							this.Chess.Team = (int)ColorTeam.White;
-								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess = this.Chess;
-							Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkWhiteQueen);
-								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = 90;
+                        Common.CheckPromote = false;
+                        if (Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Team == 1){
+                            if (Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation == 10) //white
+                            {
+                                //Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
+                                //Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
+                                this.Chess = new Queen();
+                                this.Chess.Team = (int)ColorTeam.White;
+                                Common.Board[Common.RowProQueen, Common.ColProQueen].Chess = this.Chess;
+                                Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkWhiteQueen);
+                                Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = 90;
+                            }
 							}
 							else //black
 							{
-								Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
-								Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
-							this.Chess = new Queen();
-							this.Chess.Team = (int)ColorTeam.Black;
-								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess = this.Chess;
-								Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkBlackQueen);
-								Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = -90;
+                                if (Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation == -10)
+                                {
+                                    //Common.Board[Common.RowSelected, Common.ColSelected].Image = null;
+                                    //Common.Board[Common.RowSelected, Common.ColSelected].Chess = null;
+
+                                    this.Chess = new Queen();
+                                    this.Chess.Team = (int)ColorTeam.Black;
+                                    Common.Board[Common.RowProQueen, Common.ColProQueen].Chess = this.Chess;
+                                    Common.Board[Common.RowProQueen, Common.ColProQueen].Image = Image.FromFile(linkBlackQueen);
+                                    Common.Board[Common.RowProQueen, Common.ColProQueen].Chess.Evaluation = -90;
+                                }
 							}
-							Common.CheckPromote = false;
 					}
 
 					Common.IsTurn++; //change turn
 					Common.CanMove.Clear();
 
-
                     //check if King is danger
+                    Common.CheckKing = true;
                     this.Chess.FindWay( Common.Board, this.row, this.col);
                     this.BackChessBoard();
                     for (int i = 0; i < Common.CanMove.Count; i++)
@@ -416,7 +421,7 @@ namespace ChessKing
                         
                     }
                     Common.CanMove.Clear();
-
+                    Common.CheckKing = false;
                     if(Common.IsMode == false && Common.IsTurn % 2 == 1)
                     {
                         this.minimaxRoot();
