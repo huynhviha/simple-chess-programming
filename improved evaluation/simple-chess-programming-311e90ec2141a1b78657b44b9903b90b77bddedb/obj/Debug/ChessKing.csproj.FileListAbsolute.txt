@@ -1,0 +1,45 @@
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\bin\Debug\ChessKing.exe.config
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\bin\Debug\ChessKing.exe
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\bin\Debug\ChessKing.pdb
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\obj\Debug\ChessKing.csprojResolveAssemblyReference.cache
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\obj\Debug\ChessKing.frmChessKing.resources
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\obj\Debug\ChessKing.Properties.Resources.resources
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\obj\Debug\ChessKing.csproj.GenerateResource.Cache
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\obj\Debug\ChessKing.exe
+C:\Users\ABC\Desktop\Game\ChessKing\ChessKing\obj\Debug\ChessKing.pdb
+K:\GitHub\simple-chess-programming\bin\Debug\ChessKing.exe.config
+K:\GitHub\simple-chess-programming\bin\Debug\ChessKing.exe
+K:\GitHub\simple-chess-programming\bin\Debug\ChessKing.pdb
+K:\GitHub\simple-chess-programming\obj\Debug\ChessKing.csprojResolveAssemblyReference.cache
+K:\GitHub\simple-chess-programming\obj\Debug\ChessKing.frmChessKing.resources
+K:\GitHub\simple-chess-programming\obj\Debug\ChessKing.Properties.Resources.resources
+K:\GitHub\simple-chess-programming\obj\Debug\ChessKing.csproj.GenerateResource.Cache
+K:\GitHub\simple-chess-programming\obj\Debug\ChessKing.exe
+K:\GitHub\simple-chess-programming\obj\Debug\ChessKing.pdb
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\bin\Debug\ChessKing.exe.config
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\bin\Debug\ChessKing.exe
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\bin\Debug\ChessKing.pdb
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\obj\Debug\ChessKing.csprojResolveAssemblyReference.cache
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\obj\Debug\ChessKing.frmChessKing.resources
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\obj\Debug\ChessKing.Properties.Resources.resources
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\obj\Debug\ChessKing.csproj.GenerateResource.Cache
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\obj\Debug\ChessKing.exe
+K:\Work\ChessKing-20170510T035042Z-001\simple-chess-programming\simple-chess-programming\obj\Debug\ChessKing.pdb
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\bin\Debug\ChessKing.exe.config
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\bin\Debug\ChessKing.exe
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\bin\Debug\ChessKing.pdb
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.csprojResolveAssemblyReference.cache
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.frmChessKing.resources
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.Properties.Resources.resources
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.csproj.GenerateResource.Cache
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.exe
+C:\Users\thao le\Desktop\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.pdb
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\bin\Debug\ChessKing.exe.config
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.exe
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.pdb
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\bin\Debug\ChessKing.exe
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\bin\Debug\ChessKing.pdb
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.csprojResolveAssemblyReference.cache
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.frmChessKing.resources
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.Properties.Resources.resources
+D:\Other Key\Downloads\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\simple-chess-programming-311e90ec2141a1b78657b44b9903b90b77bddedb\obj\Debug\ChessKing.csproj.GenerateResource.Cache
